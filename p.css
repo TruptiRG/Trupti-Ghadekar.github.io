@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #1a1a29;
+    background-color: #4c4a4a;
     line-height: 1.5;
     box-sizing: border-box;
-    
+    color: #f0f3f3;
     /* #10101a; */
 }
 
@@ -43,7 +43,7 @@ header{
 } */
 .navbar>div>a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: larger;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -66,11 +66,11 @@ header{
 .intro>h2{
     font-size: 60px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:wheat;
+    /* color:wheat; */
     padding: 10px;
 }
 .tru{
-    color: #7441e0;
+    color: #d7bec3;
 }
 .img{
     /* border: 2px solid violet; */
@@ -90,8 +90,8 @@ header{
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: wheat;
-    background-color: #7441e0;
+    color: #4c4a4a;
+    background-color: #cfbdb2;
     border-radius: 18px;
     margin-left: 12%;
     
@@ -101,7 +101,7 @@ header{
     
     /* border: 1px solid wheat; */
     padding: 30px;
-    color: white;
+    color: #4c4a4a;
     font-family:sans-serif;
     width: 70%;
     margin: auto;
@@ -111,7 +111,7 @@ header{
     /* line-height: 28px; */
 }
 #copy{
-    color: blue;
+    color: #cfbdb2;
     cursor: pointer;
 }
 
@@ -127,7 +127,7 @@ header{
     margin-top: 10%;
 }
 .h1{
-    color: white;
+    /* color: white; */
     font-family:sans-serif;
     text-align: center;
     padding: 20px;
@@ -136,7 +136,7 @@ header{
 }
 
 .p1,.p2,.p3{
-    color: wheat;
+    /* color: wheat; */
     /* border: 1px solid red; */
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -152,8 +152,8 @@ header{
 }
 .p1>div>a,.p2>div>a,.p3>div>a{
     text-decoration: none;
-    color: white;
-    background-color: #6970f4;
+    color: #4c4a4a;
+    background-color: #cfbdb2;
     border-radius: 15px;
     padding: 10px;
     font-size: 18px;
@@ -161,7 +161,8 @@ header{
     width: 150px;
 }
 .p1>div>a>span>i,.p2>div>a>span>i,.p3>div>a>span>i{
-    background-color: #6970f4;
+    background-color: #cfbdb2;
+    color: #4c4a4a;
 }
 .p1>img,.p2>img,.p3>img{
     height: 250px;
@@ -182,7 +183,7 @@ header{
 
 }
 .h2{
-    color: white;
+    /* color: white; */
     font-family:sans-serif;
     text-align: center;
     padding: 20px;
@@ -195,7 +196,7 @@ header{
     justify-content: space-around;
 }
 .skills>div>p{
-    color: white;
+    /* color: white; */
     font-family: sans-serif;
     font-weight: bold;
     margin: auto;
@@ -208,7 +209,7 @@ header{
 .contact{
     /* border: 1px solid wheat; */
     margin-top: 15%;
-    color: white;
+    /* color: white; */
     text-align: center;
     font-family: sans-serif;
     padding: 30px;
@@ -223,11 +224,11 @@ header{
     margin: auto;
     padding: 40px;
 }
-.contact>div>a{
+.contact>div>a>i{
     font-size: 50px;
-    color: #6970f4;
+    color: #cfbdb2;
 }
-.contact>div>a:hover{
+.contact>div>a>i:hover{
     font-size: 60px;
     color: white;
 }
@@ -263,7 +264,7 @@ header{
     .intro>h2{
         font-size: 40px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color:wheat;
+        color:#f0f3f3;
         padding: 10px;
     }
 
@@ -274,8 +275,8 @@ header{
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
-        color: wheat;
-        background-color: #7441e0;
+        color: #f0f3f3;
+        background-color: #cfbdb2;
         border-radius: 10px;
         margin-left: 50%;
         
@@ -308,8 +309,8 @@ header{
     }
     .p1>div>a,.p2>div>a,.p3>div>a{
         text-decoration: none;
-        color: white;
-        background-color: #6970f4;
+        color: #f0f3f3;
+        background-color: #cfbdb2;
         border-radius: 10px;
         padding: 10px;
         font-size: 15px;
