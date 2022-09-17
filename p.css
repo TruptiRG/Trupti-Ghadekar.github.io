@@ -46,10 +46,13 @@ header{
     /* color: white; */
     font-size: larger;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 11px;
+    border-radius: 15px;
 }
-.navbar>div>a:hover::after{
-    /* text-underline-position: below; */
-    text-underline-position: under;
+.navbar>div>a:hover{
+    background-color: #cfbdb2 ;
+    color: #4c4a4a;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .top{
@@ -98,7 +101,6 @@ header{
 }
 
 .about{
-    
     /* border: 1px solid wheat; */
     padding: 30px;
     color: #4c4a4a;
@@ -109,6 +111,11 @@ header{
     text-align: center;
     word-spacing: 5px;
     /* line-height: 28px; */
+}
+.hr{
+    width: 50%;
+    margin: auto;
+    border: 2px solid;
 }
 #copy{
     color: #cfbdb2;
@@ -170,7 +177,40 @@ header{
     border-radius: 20px;
     margin-bottom: 20px;
 }
-
+#ic{
+    font-size: 31px;
+    padding: 5px;
+    color: #f0f3f3;
+}
+#ic:hover{
+    font-size: 0;
+}
+#ic:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border-radius: 8px;
+    background-color:#d7bec3;
+    padding: 5px;
+    color: black;
+    border: 3px solid #f0f3f3;
+}
+.h4{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+.h4:hover{
+    background-color: #cfbdb2 ;
+    color: #4c4a4a;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 30%;
+}
 .skills{
     /* border: 1px solid wheat; */
     display: grid;
