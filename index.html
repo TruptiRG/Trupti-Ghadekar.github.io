@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TruptiRG</title>
     <link rel="stylesheet" href="p.css">
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
@@ -175,13 +180,24 @@
             </div>
         </div>
 
+        <div class="git">
+            <h1 class="h4" style="font-size: 28px; padding: 20px; margin-bottom: 10px;" >GitHub contributions calendar</h1> 
+        
+            <div class="calendar">
+                <!-- Loading stuff -->
+                <!-- Loading the data just for you. -->
+                
+    
+            </div>
+        </div>
+
         <div class="contact" id="contact">
             <h1>CONTACT</h1> <hr class="hr">
             <h3>Get in touch</h3>
             <div>
                 <a href="https://github.com/TruptiRG" target="_blank"><i class="fa-brands fa-github"></i></a> 
                 <a href="https://www.linkedin.com/in/trupti-ghadekar-9188ba138/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="trupti16ghadekar@gmail.com" target="_blank"><i id="copy" class="fa-solid fa-envelope"></i></a>
+                <a href="" target=""><i  class="fa-solid  fa-envelope"></i></a>
             </div>
 
         </div>
@@ -191,3 +207,23 @@
 </html>
 
 <script src="p.js"></script>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+    GitHubCalendar(".calendar", "TruptiRG");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "TruptiRG", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "TruptiRG", {
+   proxy (TruptiRG) {
+     return fetch(`https://your-proxy.com/github?user=${TruptiRG}`)
+   }
+}).then(r => r.text())
+
+</script>
+

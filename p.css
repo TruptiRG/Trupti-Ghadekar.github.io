@@ -273,6 +273,9 @@ header{
     color: white;
 }
 
+.calendar{
+    width: 95%;
+}
 
 
 
@@ -380,6 +383,10 @@ header{
     .skills>div>img{
         height: 70px;
         width: 75px;
+    }
+
+    .calendar{
+        width: 70%;
     }
 
 }
