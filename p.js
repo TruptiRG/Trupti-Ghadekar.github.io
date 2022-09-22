@@ -11,7 +11,8 @@ copy.addEventListener( "click", () => {
   }, 1000 );
 } );
 
-
+document.getElementById("fa").style.display="none";
+document.getElementById("fa1").style.display="none";
 
     
 

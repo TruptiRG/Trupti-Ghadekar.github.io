@@ -25,6 +25,8 @@
             <div><a href="#skills">SKILLS</a></div>
             <div><a href="#contact">CONTACTS</a></div>
         </div>
+        <!-- <i id="fa" class="fa-solid fa-bars"></i> -->
+        <!-- <i id="fa1" class="fa-solid fa-xmark"></i> -->
     </header>
     <div class="container">
 
@@ -35,9 +37,10 @@
             <div class="img">
                 <img src="./sonu_photo.jpg" alt="">
             </div>
+            <a class="resume" href="https://drive.google.com/file/d/1hTsDonVR5eevV_BEatjuaX-x2FlKLUYY/view?usp=sharing" target="_blank">RESUME</a>
         </div>
         
-        <a class="resume" href="https://drive.google.com/file/d/1hTsDonVR5eevV_BEatjuaX-x2FlKLUYY/view?usp=sharing" target="_blank">RESUME</a>
+       
 
         <div class="about" id="about">
             <h1>ABOUT</h1>  <hr class="hr"> <br>
@@ -202,7 +205,23 @@
 
         </div>
 
+       
+
     </div>
+    
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="footer-links">
+                <ul>
+                    <li class="footer-items"><a href=""><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/house-icon.png" alt=""> Home</a></li>
+                    <li class="footer-items"><a href="#about"><img src="https://interiorstory.co.in/assets/img/members/4_avatar-512.png" alt=""> About</a></li>
+                    <li class="footer-items"><a href="#project"><img src="https://cdn-icons-png.flaticon.com/512/5234/5234318.png" alt=""> Project</a></li>
+                    <li class="footer-items"><a href="#skills"><img src="https://thumbs.dreamstime.com/z/developer-web-responsive-design-woman-girl-glasses-gear-tool-bulb-lupe-cloud-development-website-programming-icon-set-colorful-76896679.jpg" alt=""> Skills</a></li>
+                    <li class="footer-items"><a href="#contact"><img src="https://cdn2.iconfinder.com/data/icons/flat-seo-web-ikooni/128/flat_seo2-18-512.png" alt=""> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 
@@ -216,14 +235,14 @@
     GitHubCalendar(".calendar", "TruptiRG");
 
 // or enable responsive functionality:
-GitHubCalendar(".calendar", "TruptiRG", { responsive: true });
+    GitHubCalendar(".calendar", "TruptiRG", { responsive: true });
 
 // Use a proxy
-GitHubCalendar(".calendar", "TruptiRG", {
-   proxy (TruptiRG) {
-     return fetch(`https://your-proxy.com/github?user=${TruptiRG}`)
-   }
-}).then(r => r.text())
+    GitHubCalendar(".calendar", "TruptiRG", {
+    proxy (TruptiRG) {
+         return fetch(`https://your-proxy.com/github?user=${TruptiRG}`)
+    }
+    }).then(r => r.text())
 
 </script>
 

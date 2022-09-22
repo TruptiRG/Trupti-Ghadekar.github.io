@@ -12,12 +12,6 @@ h1{
     font-size: 40px;
 }
 
-.container{
-    /* border: 2px solid red; */
-    position:relative;
-    top: 150px;
-    margin: auto;
-}
 
 header{
     position: fixed;
@@ -27,20 +21,23 @@ header{
     /* margin: auto; */
 }
 .navbar{
-    /* margin: auto; */
     /* border: 1px solid blue; */
-    /* position: relative; */
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    /* height: 100px; */
-    padding: 2%;
+    width: 105%;
+    margin-top: 10px;
+    padding: 3%;
     font-size: larger;
     
 }
-/* .navbar>div{
-    border: 1px solid wheat;
-} */
+.container{
+    /* border: 2px solid red; */
+    position:absolute;
+    top: 100px;
+    /* bottom: 100px; */
+    margin: auto;
+    min-height: calc(100vh - 84.06px - 82.81px);
+}
 .navbar>div>a{
     text-decoration: none;
     /* color: white; */
@@ -248,8 +245,8 @@ header{
 
 .contact{
     /* border: 1px solid wheat; */
-    margin-top: 15%;
-    /* color: white; */
+    margin-top: 12%;
+    margin-bottom: 12%;
     text-align: center;
     font-family: sans-serif;
     padding: 30px;
@@ -278,50 +275,106 @@ header{
 }
 
 
+footer{
+    /* border: 2px solid yellow; */
+    top: 85.5%;
+    position: fixed;
+    width: 100%;  
+    visibility: hidden;
+}
+/* .footer-links>ul{
+    border: 2px solid orangered;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    padding: 1%;
+}
+.footer-links>ul>li{
+    list-style: none;
+}
+.footer-items>a>img{
+    height: 50px;
+    width: 50px;
+}
+.footer-items>a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
 
+@media only screen and  (max-width: 650px){
 
-@media only screen and (min-width: 250px) and (max-width: 667px){
-    .navbar{
+    header{
+       display: none;
+    }
+
+    footer{
+        /* border: 2px solid yellow; */
+        top: 95%;
+        position: fixed;
+        /* width: 80%;   */
+        visibility: visible;
+        /* padding: 20px; */
+    }
+    .footer-links>ul{
+        /* border: 2px solid orangered; */
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 100%;
-        font-size: small;
-        padding: 5%;
-        margin-top: 30px;
+        grid-template-columns: repeat(5,1fr);
+        text-align: center;
+        padding: 1%;
     }
-    .navbar>div>a{
-        color: paleturquoise;
-        font-family: sans-serif;
-        font-weight: bold;
+    .footer-links>ul>li{
+        list-style: none;
     }
-    .navbar>div>a:hover{
-        color: white;
-        cursor: pointer;
+    .footer-items>a>img{
+        height: 40px;
+        width: 40px;
     }
+    .footer-items>a{
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container{
+        /* border: 2px solid red; */
+        position:absolute;
+        top: 100px;
+        margin: auto;
+        width: 99%;
+    }
+    
     .top{
         /* border: 1px solid red; */
-        display: block;
-        margin-top: 2%;
-        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* margin-top: 2%; */
+        width: 100%;
+        margin: auto;
+    }
+    .img{
+        margin: auto;
+        padding: 2%;
     }
     .intro>h2{
         font-size: 40px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color:#f0f3f3;
         padding: 10px;
+        /* border: 1px solid orangered; */
+        width: 70%;
+        margin: auto;
     }
 
     .resume{
-        /* border: 1px solid black; */
-        padding: 8px;
-        font-size: 15px;
+        /* border: 1px solid orangered; */
+        padding: 2%;
+        font-size: 20px;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
-        color: #f0f3f3;
+        margin: auto;
         background-color: #cfbdb2;
         border-radius: 10px;
-        margin-left: 50%;
+        
         
     }
     .project{
@@ -338,6 +391,7 @@ header{
         /* text-align: center; */
         padding: 20px;
         margin-top: 10%;
+        margin-left: -50px;
         
     }
     .p1,.p2,.p3{
@@ -367,6 +421,18 @@ header{
         margin-bottom: 20px;
     }
 
+    #ic:hover::after{
+        content: attr(data-hover);
+        font-size: 11px;
+        line-height: 10px;
+        font-weight: normal;
+        border-radius: 8px;
+        background-color:#d7bec3;
+        padding: 5px;
+        color: black;
+        border: 3px solid #f0f3f3;
+    }
+
     .skills{
         /* border: 1px solid wheat; */
         display: block;
@@ -385,7 +451,14 @@ header{
         width: 75px;
     }
 
+    .calendar>div>div{
+        /* width: 60px; */
+        border: 1px solid blue;
+        overflow: hidden;
+        
+    }
     .calendar{
+        border: 1px solid wheat;
         width: 70%;
     }
 
