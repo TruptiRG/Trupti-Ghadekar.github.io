@@ -55,7 +55,7 @@ header{
 .top{
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 2%;
     
 }
@@ -78,24 +78,26 @@ header{
     padding: 1%;
 }
 .img>img{
-    height: 230px;
-    width: 220px;
+    height: 305px;
+    width: 300px;
     border-radius: 50%;
     padding: 2%;
 }
 .resume{
     /* border: 1px solid black; */
-    padding: 15px;
+    padding: 10px;
     font-size: 22px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: #4c4a4a;
     background-color: #cfbdb2;
-    border-radius: 18px;
-    margin-left: 12%;
-    
+    border-radius: 5px;
+    width: auto;
+    height: 55px;
+    margin-top: 25%;    
 }
+
 
 .about{
     /* border: 1px solid wheat; */
