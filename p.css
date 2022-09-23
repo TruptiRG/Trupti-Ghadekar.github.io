@@ -86,18 +86,27 @@ header{
 .resume{
     /* border: 1px solid black; */
     padding: 10px;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: #4c4a4a;
     background-color: #cfbdb2;
     border-radius: 5px;
-    width: auto;
+    width: 20%;
     height: 55px;
-    margin-top: 25%;    
+    display: flex;
+    justify-content: space-around;
 }
-
+.r{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#rr{
+    color: #4c4a4a;
+    background-color: #cfbdb2;
+}
 
 .about{
     /* border: 1px solid wheat; */
@@ -279,10 +288,11 @@ header{
 
 footer{
     /* border: 2px solid yellow; */
-    top: 85.5%;
+    /* top: 85.5%; */
     position: fixed;
-    width: 100%;  
+    /* width: 100%;   */
     visibility: hidden;
+    
 }
 /* .footer-links>ul{
     border: 2px solid orangered;
@@ -313,7 +323,7 @@ footer{
         /* border: 2px solid yellow; */
         top: 95%;
         position: fixed;
-        /* width: 80%;   */
+        width: 100%;  
         visibility: visible;
         /* padding: 20px; */
     }
@@ -334,6 +344,9 @@ footer{
     .footer-items>a{
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
     }
 
     .container{
@@ -353,6 +366,7 @@ footer{
         margin: auto;
     }
     .img{
+        
         margin: auto;
         padding: 2%;
     }
@@ -376,8 +390,36 @@ footer{
         margin: auto;
         background-color: #cfbdb2;
         border-radius: 10px;
+        border-radius: 5px;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
         
+    }
+
+    .r{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    #rr{
+        color: #4c4a4a;
+        background-color: #cfbdb2;
+        height: 30px;
         
+    }
+
+    .about{
+        /* border: 1px solid wheat; */
+        padding: 30px;
+        color: #4c4a4a;
+        font-family:sans-serif;
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+        text-align: center;
+        word-spacing: 5px;
+        /* line-height: 28px; */
     }
     .project{
         /* border: 1px solid wheat; */
@@ -423,6 +465,12 @@ footer{
         margin-bottom: 20px;
     }
 
+    #ic{
+        font-size: 20px;
+        padding: 5px;
+        color: #f0f3f3;
+    }
+
     #ic:hover::after{
         content: attr(data-hover);
         font-size: 11px;
@@ -451,6 +499,19 @@ footer{
     .skills>div>img{
         height: 70px;
         width: 75px;
+    }
+
+    .contact>div{
+        display: flex;
+        justify-content: space-between;
+        /* width: 80%; */
+        margin: auto;
+        /* padding: 40px; */
+    }
+
+    .contact>div>a>i:hover{
+        font-size: 50px;
+        color: white;
     }
 
     .calendar>div>div{
