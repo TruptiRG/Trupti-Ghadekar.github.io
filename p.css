@@ -254,6 +254,17 @@ header{
     width: 120px;
 }
 
+.gitS{
+    /* border: 1px solid red; */
+    padding: 45px;
+    margin-top: 60px;
+}
+.gitS>img{
+    margin-top: 30px;
+    margin-left: 320px;
+    width: 50%;
+}
+
 .contact{
     /* border: 1px solid wheat; */
     margin-top: 12%;
@@ -356,6 +367,8 @@ footer{
         margin: auto;
         width: 99%;
     }
+
+    
     
     .top{
         /* border: 1px solid red; */
@@ -523,6 +536,19 @@ footer{
     .calendar{
         border: 1px solid wheat;
         width: 70%;
+    }
+
+    .gitS{
+        /* border: 1px solid red; */
+        /* padding: 45px; */
+        margin-top: 60px;
+        width: 80%;
+        margin: auto;
+    }
+    .gitS>img{
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 80%;
     }
 
 }
