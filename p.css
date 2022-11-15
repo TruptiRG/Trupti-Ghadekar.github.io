@@ -94,7 +94,7 @@ header{
     text-decoration: none;
     color: #4c4a4a;
     background-color: #cfbdb2;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 20%;
     height: 55px;
     display: flex;
@@ -108,6 +108,8 @@ header{
 #rr{
     color: #4c4a4a;
     background-color: #cfbdb2;
+    border: 7px solid #cfbdb2;
+    
 }
 
 .about{
@@ -181,6 +183,10 @@ header{
     background-color: #cfbdb2;
     color: #4c4a4a;
 }
+.p3>div>a>span>img{
+    background-color: #cfbdb2;
+    color: #4c4a4a;
+}
 .p1>img,.p2>img,.p3>img{
     height: 250px;
     width: 400px;
@@ -192,10 +198,34 @@ header{
     padding: 5px;
     color: #f0f3f3;
 }
+#icc{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+    background-color: #f0f3f3;
+    border-radius: 5px;
+    /* background: none; */
+    /* border: 2px solid red; */
+}
 #ic:hover{
     font-size: 0;
 }
+#icc:hover{
+    font-size: 0;
+    cursor: pointer;
+}
 #ic:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border-radius: 8px;
+    background-color:#d7bec3;
+    padding: 5px;
+    color: black;
+    border: 3px solid #f0f3f3;
+}
+#icc:hover::after{
     content: attr(data-hover);
     font-size: 11px;
     line-height: 10px;
