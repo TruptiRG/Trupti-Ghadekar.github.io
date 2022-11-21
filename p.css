@@ -44,8 +44,10 @@ header{
     font-size: larger;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 11px;
-    
-    border-bottom: 1.5px solid #d7bec3;
+    border-radius: 8px;
+    border: 1.5px dashed #d7bec3;
+    border-top: none;
+    border-right: none;
 }
 .navbar>div>a:hover{
     background-color: #cfbdb2 ;
