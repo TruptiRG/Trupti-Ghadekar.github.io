@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #4c4a4a;
+    background-color: #00171f;
     line-height: 1.5;
     box-sizing: border-box;
-    color: #f0f3f3;
+    color: white;
     /* #10101a; */
 }
 
@@ -22,11 +22,12 @@ header{
 }
 .navbar{
     /* border: 1px solid blue; */
+    background-color: #172834;
     display: flex;
     justify-content: space-between;
     width: 105%;
-    margin-top: 10px;
-    padding: 3%;
+    margin-top: 20px;
+    padding: 2%;
     font-size: larger;
     
 }
@@ -39,20 +40,22 @@ header{
     min-height: calc(100vh - 84.06px - 82.81px);
 }
 .navbar>div>a{
+    background-color: #172834;
     text-decoration: none;
     /* color: white; */
     font-size: larger;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 11px;
-    border-radius: 8px;
-    border: 1.5px dashed #d7bec3;
+    border-radius: 5px;
+    /* border: 1.5px dashed #d7bec3; */
     border-top: none;
     border-right: none;
+    border-left: none;
 }
 .navbar>div>a:hover{
-    background-color: #cfbdb2 ;
-    color: #4c4a4a;
-    border-radius: 15px;
+    background-color: #e2fbff ;
+    color: #1c1f47;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -74,7 +77,8 @@ header{
     padding: 10px;
 }
 .tru{
-    color: #d7bec3;
+    color: #455963;
+    /*#c6dceb*/
 }
 .img{
     /* border: 2px solid violet; */
@@ -88,14 +92,14 @@ header{
     padding: 2%;
 }
 .resume{
-    /* border: 1px solid black; */
+    /* border: 1px solid yellow; */
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: #4c4a4a;
-    background-color: #cfbdb2;
+    color: black;
+    background-color: #e2fbff;
     border-radius: 7px;
     width: 20%;
     height: 55px;
@@ -106,25 +110,42 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    /* border: 1px solid red; */
 }
 #rr{
-    color: #4c4a4a;
-    background-color: #cfbdb2;
-    border: 7px solid #cfbdb2;
+    color: #1c1f47;
+    background-color: #e2fbff;
+    border: 7px solid #e2fbff;
     
 }
-
+#about{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
 .about{
     /* border: 1px solid wheat; */
     padding: 30px;
     color: #4c4a4a;
     font-family:sans-serif;
-    width: 80%;
+    width: 40%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 7%;
     text-align: center;
     word-spacing: 5px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 5%;
     /* line-height: 28px; */
+}
+#gif{
+    margin-top: 15%;
+    /* height: 50%; */
+    width: 55%;
+    /* border: 1px solid red; */
+    border-radius: 40px;
+    margin-left: 30%;
+    margin-top: 15%;
 }
 .hr{
     width: 50%;
@@ -132,7 +153,7 @@ header{
     border: 2px solid;
 }
 #copy{
-    color: #cfbdb2;
+    color: #e2fbff;
     cursor: pointer;
 }
 
@@ -173,8 +194,8 @@ header{
 }
 .p1>div>a,.p2>div>a,.p3>div>a{
     text-decoration: none;
-    color: #4c4a4a;
-    background-color: #cfbdb2;
+    color: black;
+    background-color: #e2fbff;
     border-radius: 15px;
     padding: 10px;
     font-size: 18px;
@@ -182,11 +203,11 @@ header{
     width: 150px;
 }
 .p1>div>a>span>i,.p2>div>a>span>i,.p3>div>a>span>i{
-    background-color: #cfbdb2;
-    color: #4c4a4a;
+    background-color: #e2fbff;
+    color: black;
 }
 .p3>div>a>span>img{
-    background-color: #cfbdb2;
+    background-color: #e2fbff;
     color: #4c4a4a;
 }
 .p1>img,.p2>img,.p3>img{
@@ -198,7 +219,7 @@ header{
 #ic{
     font-size: 31px;
     padding: 5px;
-    color: #f0f3f3;
+    color: white;
 }
 #icc{
     width: 25px;
@@ -222,7 +243,7 @@ header{
     line-height: 10px;
     font-weight: normal;
     border-radius: 8px;
-    background-color:#d7bec3;
+    background-color:white;
     padding: 5px;
     color: black;
     border: 3px solid #f0f3f3;
@@ -246,8 +267,8 @@ header{
     padding: 10px;
 }
 .h4:hover{
-    background-color: #cfbdb2 ;
-    color: #4c4a4a;
+    background-color: #e2fbff ;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 8px;
     margin: auto;
@@ -319,7 +340,7 @@ header{
 }
 .contact>div>a>i{
     font-size: 50px;
-    color: #cfbdb2;
+    color: #e2fbff;
 }
 .contact>div>a>i:hover{
     font-size: 60px;
@@ -366,32 +387,38 @@ footer{
 
     footer{
         /* border: 2px solid yellow; */
-        top: 95%;
+        top: 90%;
         position: fixed;
         width: 100%;  
         visibility: visible;
-        /* padding: 20px; */
+        /* padding: -80px; */
+        
+        
     }
     .footer-links>ul{
         /* border: 2px solid orangered; */
         display: grid;
         grid-template-columns: repeat(5,1fr);
         text-align: center;
+        justify-items: center;
         padding: 1%;
+        
     }
     .footer-links>ul>li{
         list-style: none;
     }
     .footer-items>a>img{
-        height: 40px;
-        width: 40px;
+        height: 28.7px;
+        width: 35px;
     }
     .footer-items>a{
+        /* border: 2px solid red; */
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        gap: 5px;
+        /* gap: 5px; */
+        
     }
 
     .container{
@@ -429,16 +456,16 @@ footer{
 
     .resume{
         /* border: 1px solid orangered; */
-        padding: 2%;
-        font-size: 20px;
+        padding: 4%;
+        font-size: 18px;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
-        margin: auto;
-        background-color: #cfbdb2;
+        /* margin: auto; */
+        background-color: #e2fbff;
         border-radius: 10px;
         border-radius: 5px;
-        width: 30%;
+        width: 31%;
         display: flex;
         justify-content: space-around;
         
@@ -447,12 +474,16 @@ footer{
     .r{
         display: flex;
         justify-content: center;
-        margin-top: 10%;
+        /* margin-top: 10%; */
+        /* border: 1px solid orangered; */
+        padding: -51px;
     }
     #rr{
         color: #4c4a4a;
-        background-color: #cfbdb2;
+        background-color: #e2fbff;
         height: 30px;
+        padding: -10px;
+        font-size: 15px;
         
     }
 
@@ -462,11 +493,27 @@ footer{
         color: #4c4a4a;
         font-family:sans-serif;
         width: 80%;
-        margin: auto;
+        font-size: small;
+        margin-left: 11%;
         margin-top: 15%;
-        text-align: center;
-        word-spacing: 5px;
+        /* text-align: center; */
+        /* word-spacing: 5px; */
         /* line-height: 28px; */
+    }
+    #about{
+        display: block;
+        align-items: center; 
+        /* justify-content: space-between; */
+        /* border: 1px solid red; */
+    }
+    #gif{
+        margin-top: 15%;
+        /* height: 50%; */
+        /* width: 60%; */
+        /* border: 1px solid red; */
+        border-radius: 5px;
+        margin-left: 20%;
+        /* margin-top: 15%; */
     }
     .project{
         /* border: 1px solid wheat; */
@@ -497,10 +544,10 @@ footer{
     }
     .p1>div>a,.p2>div>a,.p3>div>a{
         text-decoration: none;
-        color: #f0f3f3;
-        background-color: #cfbdb2;
+        color: black;
+        background-color: #e2fbff;
         border-radius: 10px;
-        padding: 10px;
+        padding: 8px;
         font-size: 15px;
         margin-top: 10px;
         width: 80%;
@@ -515,7 +562,7 @@ footer{
     #ic{
         font-size: 20px;
         padding: 5px;
-        color: #f0f3f3;
+        color: #e2fbff;
     }
 
     #ic:hover::after{
@@ -524,10 +571,10 @@ footer{
         line-height: 10px;
         font-weight: normal;
         border-radius: 8px;
-        background-color:#d7bec3;
+        background-color:#e2fbff;
         padding: 5px;
         color: black;
-        border: 3px solid #f0f3f3;
+        border: 3px solid #e2fbff;
     }
 
     .skills{
@@ -576,13 +623,17 @@ footer{
         /* border: 1px solid red; */
         /* padding: 45px; */
         margin-top: 60px;
-        width: 80%;
+        width: 85%;
         margin: auto;
+        font-size: medium;
     }
     .gitS>img{
-        margin-top: 30px;
-        margin-left: 50px;
-        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .h4{
+        font-size: large;
     }
 
 }
