@@ -14,5 +14,11 @@ copy.addEventListener( "click", () => {
 document.getElementById("fa").style.display="none";
 document.getElementById("fa1").style.display="none";
 
+// document.querySelector(".resume").addEventListener("")
+
+function newTab(){
+  window.open("https://drive.google.com/file/d/1nNdOErx-1roOHqaRY6oxM4J0LCqmOzUp/view?usp=sharing" , "_blank");
+}
+
     
 
