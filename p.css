@@ -380,6 +380,9 @@ footer{
 } */
 
 @media only screen and  (max-width: 650px){
+    /* *{
+        width: 100%;
+    } */
 
     header{
        display: none;
@@ -387,12 +390,13 @@ footer{
 
     footer{
         /* border: 2px solid yellow; */
-        top: 90%;
+        top: 91.8%;
         position: fixed;
-        width: 100%;  
+        width: 99.8%;  
         visibility: visible;
         /* padding: -80px; */
-        
+        /* margin: 0;
+        padding: 0; */
         
     }
     .footer-links>ul{
@@ -409,12 +413,13 @@ footer{
     }
     .footer-items>a>img{
         height: 28.7px;
-        width: 35px;
+        width: 32px;
     }
     .footer-items>a{
         /* border: 2px solid red; */
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: small;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         /* gap: 5px; */
@@ -424,9 +429,9 @@ footer{
     .container{
         /* border: 2px solid red; */
         position:absolute;
-        top: 100px;
+        top: 101px;
         margin: auto;
-        width: 99%;
+        width: 100%;
     }
 
     
@@ -440,9 +445,15 @@ footer{
         margin: auto;
     }
     .img{
-        
+        /* border: 1px solid orangered; */
         margin: auto;
-        padding: 2%;
+        /* padding: 2%; */
+        /* width: 70%; */
+    }
+    #trupti{
+        /* border: 2px solid yellow; */
+        height: 205px;
+        width: 200px;
     }
     .intro>h2{
         font-size: 40px;
@@ -479,12 +490,13 @@ footer{
         padding: -51px;
     }
     #rr{
+        display: none;
         color: #4c4a4a;
         background-color: #e2fbff;
         height: 30px;
         padding: -10px;
         font-size: 15px;
-        
+        /* border: 1px solid orangered; */
     }
 
     .about{
@@ -554,7 +566,7 @@ footer{
     }
     .p1>img,.p2>img,.p3>img{
         height: 100px;
-        width: 180px;
+        width: 150px;
         border-radius: 20px;
         margin-bottom: 20px;
     }
@@ -587,20 +599,26 @@ footer{
     
     }
     .skills>div{
-        
+        font-size: small;
         margin-top: 15px;
     }
     .skills>div>img{
         height: 70px;
-        width: 75px;
+        width: 70px;
     }
 
     .contact>div{
-        display: flex;
-        justify-content: space-between;
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
         /* width: 80%; */
         margin: auto;
         /* padding: 40px; */
+        font-size: small;
+    }
+    .contact>div>a>i{
+        font-size: 40px;
     }
 
     .contact>div>a>i:hover{
